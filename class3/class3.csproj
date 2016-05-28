@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contacts.aspx" />
+    <Content Include="User_Controls\jumbotron.ascx" />
     <Content Include="User_Controls\NavBar.ascx" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
@@ -128,6 +129,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\jumbotron.ascx.cs">
+      <DependentUpon>jumbotron.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_Controls\jumbotron.ascx.designer.cs">
+      <DependentUpon>jumbotron.ascx</DependentUpon>
     </Compile>
     <Compile Include="User_Controls\NavBar.ascx.cs">
       <DependentUpon>NavBar.ascx</DependentUpon>
